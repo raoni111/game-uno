@@ -15,7 +15,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/howler": "^2.2.7",
     "@types/node": "^18.15.13",
+    "howler": "^2.2.3",
     "typescript": "^5.0.4",
     "webpack": "^5.80.0"
   },

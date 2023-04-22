@@ -208,15 +208,7 @@
         "image": "images/cartas-vermelhas/inverter-azul.png"
       },
       {
-        "name": "costa-uno",
-        "image": "images/cartas-especiais/costa-uno.png"
-      },
-      {
         "name": "escolher-cor",
         "image": "images/cartas-especiais/escolher-cor.png"
-      },
-      {
-        "name": "pilha",
-        "image": "images/cartas-especiais/pilha.png"
       }
 ]

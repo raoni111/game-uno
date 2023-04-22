@@ -1,16 +1,16 @@
 import Player from './player';
 import getRandomNumber from './services/randomNumber';
 import Card from './Card';
-import { CardType } from './types/PlayerProtocol';
+import PlayerProtocol, { CardType } from './types/PlayerProtocol';
 import TableProtocol from './types/TableProtocol';
 
 export default class Game {
     private readonly cards: CardType[] = require('../data/json/data.json')
-    private players: Player[] = [];
+    private players: PlayerProtocol[] = [];
 
     constructor(private readonly table: TableProtocol) {}
 
-    addPlayer(player: Player) {
+    addPlayer(player: PlayerProtocol) {
         this.players.push(player);
     }
 
@@ -24,9 +24,9 @@ export default class Game {
 
     private spyCards() {
         this.players.map(((player) => {
-            player.deck.get.map(card => {
+            player.deck.get.map((card, index) => {
                 card.img.addEventListener('click', () => {
-                    this.table.addCard(card);
+                    this.table.addCard(card, index);
                 });
             })
         }))
@@ -38,7 +38,6 @@ export default class Game {
             const randomNumber = getRandomNumber(this.cards.length - 1, 0);
     
             const card = new Card(this.cards[randomNumber], i)
-            
             player.deck.add(card);
             }
             player.deck.setDeck();
