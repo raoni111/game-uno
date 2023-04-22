@@ -1,0 +1,222 @@
+[
+    {
+        "name": "+2",
+        "image": "images/cartas-azuis/+2 azul.png"
+      },
+      {
+        "name": "0",
+        "image": "images/cartas-azuis/0-azul.png"
+      },
+      {
+        "name": "1",
+        "image": "images/cartas-azuis/1-azul.png"
+      },
+      {
+        "name": "2",
+        "image": "images/cartas-azuis/2-azul.png"
+      },
+      {
+        "name": "3",
+        "image": "images/cartas-azuis/3-azul.png"
+      },
+      {
+        "name": "4",
+        "image": "images/cartas-azuis/4-azul.png"
+      },
+      {
+        "name": "5",
+        "image": "images/cartas-azuis/5-azul.png"
+      },
+      {
+        "name": "6",
+        "image": "images/cartas-azuis/6-azul.png"
+      },
+      {
+        "name": "7",
+        "image": "images/cartas-azuis/7-azul.png"
+      },
+      {
+        "name": "8",
+        "image": "images/cartas-azuis/8-azul.png"
+      },
+      {
+        "name": "9",
+        "image": "images/cartas-azuis/9-azul.png"
+      },
+      {
+        "name": "Bloquear",
+        "image": "images/cartas-azuis/bloquear-azul.png"
+      },
+      {
+        "name": "Inverter",
+        "image": "images/cartas-azuis/inverter-azul.png"
+      },
+      {
+        "name": "+2",
+        "image": "images/cartas-amarela/+2 azul.png"
+      },
+      {
+        "name": "0",
+        "image": "images/cartas-amarela/0-azul.png"
+      },
+      {
+        "name": "1",
+        "image": "images/cartas-amarela/1-azul.png"
+      },
+      {
+        "name": "2",
+        "image": "images/cartas-amarela/2-azul.png"
+      },
+      {
+        "name": "3",
+        "image": "images/cartas-amarela/3-azul.png"
+      },
+      {
+        "name": "4",
+        "image": "images/cartas-amarela/4-azul.png"
+      },
+      {
+        "name": "5",
+        "image": "images/cartas-amarela/5-azul.png"
+      },
+      {
+        "name": "6",
+        "image": "images/cartas-amarela/6-azul.png"
+      },
+      {
+        "name": "7",
+        "image": "images/cartas-amarela/7-azul.png"
+      },
+      {
+        "name": "8",
+        "image": "images/cartas-amarela/8-azul.png"
+      },
+      {
+        "name": "9",
+        "image": "images/cartas-amarela/9-azul.png"
+      },
+      {
+        "name": "Bloquear",
+        "image": "images/cartas-amarela/bloquear-azul.png"
+      },
+      {
+        "name": "Inverter",
+        "image": "images/cartas-amarela/inverter-azul.png"
+      },
+      {
+        "name": "+2",
+        "image": "images/cartas-verdes/+2 azul.png"
+      },
+      {
+        "name": "0",
+        "image": "images/cartas-verdes/0-azul.png"
+      },
+      {
+        "name": "1",
+        "image": "images/cartas-verdes/1-azul.png"
+      },
+      {
+        "name": "2",
+        "image": "images/cartas-verdes/2-azul.png"
+      },
+      {
+        "name": "3",
+        "image": "images/cartas-verdes/3-azul.png"
+      },
+      {
+        "name": "4",
+        "image": "images/cartas-verdes/4-azul.png"
+      },
+      {
+        "name": "5",
+        "image": "images/cartas-verdes/5-azul.png"
+      },
+      {
+        "name": "6",
+        "image": "images/cartas-verdes/6-azul.png"
+      },
+      {
+        "name": "7",
+        "image": "images/cartas-verdes/7-azul.png"
+      },
+      {
+        "name": "8",
+        "image": "images/cartas-verdes/8-azul.png"
+      },
+      {
+        "name": "9",
+        "image": "images/cartas-verdes/9-azul.png"
+      },
+      {
+        "name": "Bloquear",
+        "image": "images/cartas-verdes/bloquear-azul.png"
+      },
+      {
+        "name": "Inverter",
+        "image": "images/cartas-verdes/inverter-azul.png"
+      },
+      {
+        "name": "+2",
+        "image": "images/cartas-vermelhas/+2 azul.png"
+      },
+      {
+        "name": "0",
+        "image": "images/cartas-vermelhas/0-azul.png"
+      },
+      {
+        "name": "1",
+        "image": "images/cartas-vermelhas/1-azul.png"
+      },
+      {
+        "name": "2",
+        "image": "images/cartas-vermelhas/2-azul.png"
+      },
+      {
+        "name": "3",
+        "image": "images/cartas-vermelhas/3-azul.png"
+      },
+      {
+        "name": "4",
+        "image": "images/cartas-vermelhas/4-azul.png"
+      },
+      {
+        "name": "5",
+        "image": "images/cartas-vermelhas/5-azul.png"
+      },
+      {
+        "name": "6",
+        "image": "images/cartas-vermelhas/6-azul.png"
+      },
+      {
+        "name": "7",
+        "image": "images/cartas-vermelhas/7-azul.png"
+      },
+      {
+        "name": "8",
+        "image": "images/cartas-vermelhas/8-azul.png"
+      },
+      {
+        "name": "9",
+        "image": "images/cartas-vermelhas/9-azul.png"
+      },
+      {
+        "name": "Bloquear",
+        "image": "images/cartas-vermelhas/bloquear-azul.png"
+      },
+      {
+        "name": "Inverter",
+        "image": "images/cartas-vermelhas/inverter-azul.png"
+      },
+      {
+        "name": "costa-uno",
+        "image": "images/cartas-especiais/costa-uno.png"
+      },
+      {
+        "name": "escolher-cor",
+        "image": "images/cartas-especiais/escolher-cor.png"
+      },
+      {
+        "name": "pilha",
+        "image": "images/cartas-especiais/pilha.png"
+      }
+]
