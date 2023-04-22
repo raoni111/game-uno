@@ -23,7 +23,7 @@ export default class Game {
     }
 
     private spyCards() {
-        this.players.map((player => {
+        this.players.map(((player) => {
             player.deck.get.map(card => {
                 card.img.addEventListener('click', () => {
                     this.table.addCard(card);

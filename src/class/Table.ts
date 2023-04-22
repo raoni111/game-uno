@@ -1,3 +1,4 @@
+import Player from "./player";
 import getRandomNumber from "./services/randomNumber";
 import CardProtocol from "./types/CardProtocol";
 import { CardType } from "./types/PlayerProtocol";
