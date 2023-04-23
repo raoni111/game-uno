@@ -7,8 +7,13 @@ import TableProtocol from './types/TableProtocol';
 export default class Game {
     private readonly cards: CardType[] = require('../data/json/data.json')
     private players: PlayerProtocol[] = [];
+    private stack = document.getElementById('stack-cards') as HTMLDivElement;
 
-    constructor(private readonly table: TableProtocol) {}
+    constructor(private readonly table: TableProtocol) {
+        this.stack.style.top = `${(window.innerHeight * 50) / 100}px`;
+        this.stack.style.left = `${(window.innerHeight * 20) / 100}px`;
+
+    }
 
     addPlayer(player: PlayerProtocol) {
         this.players.push(player);
@@ -27,6 +32,10 @@ export default class Game {
             player.deck.get.map((card, index) => {
                 card.img.addEventListener('click', () => {
                     this.table.addCard(card, index);
+
+                    player.deck.deleteCard(index);
+
+                    card.cardAnimation.cardRepositioning(player.deck, index);
                 });
             })
         }))

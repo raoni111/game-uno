@@ -11,6 +11,8 @@ export default class Card {
 
     cardAnimation: CardAnimationProtocol = new CardAnimation(this);
 
+    private stack = document.getElementById('stack-cards') as HTMLDivElement;
+
     constructor(card: CardType, index: number) {
         this._img = createImgElement(card.image);
         this._name = card.name;
@@ -28,7 +30,22 @@ export default class Card {
     }
 
     private toAppear(): void {
-        this._img.setAttribute('toAppear', 'false');
-    } 
+        const coordinateY = this.stack.style.top;
+        const coordinateX = this.stack.style.left;
+
+        this.setPosition(coordinateX, coordinateY);
+    }
+
+    public setPosition(x: string, y: string): void {
+        this._img.style.top = y;
+        this._img.style.left = x;
+    }
+
+    public get y(): string {
+        return this._img.style.top;
+    }
+    public get x(): string {
+        return this._img.style.left;
+    }
 
 } 

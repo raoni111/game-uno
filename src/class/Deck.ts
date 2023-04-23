@@ -9,8 +9,11 @@ export default class Deck implements DeckProtocol {
     constructor(private readonly deckElement: HTMLDivElement) {}
 
     get get(): CardProtocol[] {
-        this.toAppear();
         return this._deck;
+    }
+
+    deleteCard(index: number) {
+        delete this._deck[index];
     }
 
     public add(card: CardProtocol, stackAnimation?: boolean) {
@@ -21,10 +24,12 @@ export default class Deck implements DeckProtocol {
 
     public setDeck() {
         this.deckElement.innerHTML = '';
-
+        this.toAppear();
         this._deck.map((card) => {
             this.deckElement.appendChild(card.img);
         })
+
+        console.log(this._deck);
     }
 
     public playAudio() {
@@ -43,7 +48,11 @@ export default class Deck implements DeckProtocol {
                 clearInterval(intervalImg);
                 return;
             }
-            this._deck[index].img.setAttribute('toAppear', 'true');
+
+            const x = `${((window.innerWidth * 30) / 100) + (120 * index)}px`;
+            const y = `${window.innerHeight - 200}px`;
+
+            this._deck[index].setPosition(x, y);
             index++;
         }, 100);
     }

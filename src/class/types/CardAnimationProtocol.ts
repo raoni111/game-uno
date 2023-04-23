@@ -1,5 +1,8 @@
+import CardProtocol from "./CardProtocol";
+import DeckProtocol from "./DeckProtocol";
+
 type CardAnimationProtocol = {
-    stackAnimation(deckElement: HTMLDivElement): void
+    cardRepositioning(stack: DeckProtocol, index: number): void
 }
 
 export default CardAnimationProtocol;
