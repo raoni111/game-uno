@@ -3,6 +3,7 @@ import { CardType } from "./PlayerProtocol";
 
 type TableProtocol = {
     tableElement: HTMLDivElement;
+    cardActive: CardProtocol;
     addCard(card: CardProtocol, index: number): void;
 }
 

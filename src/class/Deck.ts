@@ -1,12 +1,48 @@
 import CardProtocol from './types/CardProtocol'
 import DeckProtocol from './types/DeckProtocol';
-import {Howl, Howler} from 'howler';
+import {Howl} from 'howler';
+import PlayerProtocol, { NamePlayerType } from './types/PlayerProtocol';
 
 export default class Deck implements DeckProtocol {
     private _deck: CardProtocol[] = [];
     private stack = document.getElementById('stack-cards') as HTMLDivElement;
 
-    constructor(private readonly deckElement: HTMLDivElement) {}
+    private readonly deckPosition: Record<NamePlayerType, {y: number, x: number}> = {
+        bot1: {
+            y: 950,
+            x: 120
+        },
+        bot2: {
+            y: 0,
+            x: 0
+        },
+        bot3: {
+            y: 0,
+            x: 0
+        },
+        bot4: {
+            y: 0,
+            x: 0
+        },
+        Player1: {
+            y: 200,
+            x: 120
+        },
+        Player2: {
+            y: 0,
+            x: 0
+        },
+        Player3: {
+            y: 0,
+            x: 0
+        },
+        Player4: {
+            y: 0,
+            x: 0
+        },
+    }
+
+    constructor(private readonly deckElement: HTMLDivElement, private readonly player: PlayerProtocol) {}
 
     get get(): CardProtocol[] {
         return this._deck;
@@ -26,7 +62,7 @@ export default class Deck implements DeckProtocol {
         this.deckElement.innerHTML = '';
         this.toAppear();
         this._deck.map((card) => {
-            this.deckElement.appendChild(card.img);
+            this.deckElement.appendChild(card.img());
         })
 
         console.log(this._deck);
@@ -49,8 +85,8 @@ export default class Deck implements DeckProtocol {
                 return;
             }
 
-            const x = `${((window.innerWidth * 30) / 100) + (120 * index)}px`;
-            const y = `${window.innerHeight - 200}px`;
+            const x = `${((window.innerWidth * 30) / 100) + (this.deckPosition[(this.player.name) as NamePlayerType].x * index)}px`;
+            const y = `${window.innerHeight - this.deckPosition[(this.player.name) as NamePlayerType].y}px`;
 
             this._deck[index].setPosition(x, y);
             index++;

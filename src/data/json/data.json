@@ -1,214 +1,267 @@
 [
     {
         "name": "+2",
-        "image": "images/cartas-azuis/+2 azul.png"
+        "image": "images/cartas-azuis/+2 azul.png",
+        "color": "azul"
       },
       {
         "name": "0",
-        "image": "images/cartas-azuis/0-azul.png"
+        "image": "images/cartas-azuis/0-azul.png",
+        "color": "azul"
       },
       {
         "name": "1",
-        "image": "images/cartas-azuis/1-azul.png"
+        "image": "images/cartas-azuis/1-azul.png",
+        "color": "azul"
       },
       {
         "name": "2",
-        "image": "images/cartas-azuis/2-azul.png"
+        "image": "images/cartas-azuis/2-azul.png",
+        "color": "azul"
       },
       {
         "name": "3",
-        "image": "images/cartas-azuis/3-azul.png"
+        "image": "images/cartas-azuis/3-azul.png",
+        "color": "azul"
       },
       {
         "name": "4",
-        "image": "images/cartas-azuis/4-azul.png"
+        "image": "images/cartas-azuis/4-azul.png",
+        "color": "azul"
       },
       {
         "name": "5",
-        "image": "images/cartas-azuis/5-azul.png"
+        "image": "images/cartas-azuis/5-azul.png",
+        "color": "azul"
       },
       {
         "name": "6",
-        "image": "images/cartas-azuis/6-azul.png"
+        "image": "images/cartas-azuis/6-azul.png",
+        "color": "azul"
       },
       {
         "name": "7",
-        "image": "images/cartas-azuis/7-azul.png"
+        "image": "images/cartas-azuis/7-azul.png",
+        "color": "azul"
       },
       {
         "name": "8",
-        "image": "images/cartas-azuis/8-azul.png"
+        "image": "images/cartas-azuis/8-azul.png",
+        "color": "azul"
       },
       {
         "name": "9",
-        "image": "images/cartas-azuis/9-azul.png"
+        "image": "images/cartas-azuis/9-azul.png",
+        "color": "azul"
       },
       {
         "name": "Bloquear",
-        "image": "images/cartas-azuis/bloquear-azul.png"
+        "image": "images/cartas-azuis/bloquear-azul.png",
+        "color": "azul"
       },
       {
         "name": "Inverter",
-        "image": "images/cartas-azuis/inverter-azul.png"
+        "image": "images/cartas-azuis/inverter-azul.png",
+        "color": "azul"
       },
       {
         "name": "+2",
-        "image": "images/cartas-amarela/+2 azul.png"
+        "image": "images/cartas-amarela/+2 azul.png",
+        "color": "amarela"
       },
       {
         "name": "0",
-        "image": "images/cartas-amarela/0-azul.png"
+        "image": "images/cartas-amarela/0-azul.png",
+        "color": "amarela"
       },
       {
         "name": "1",
-        "image": "images/cartas-amarela/1-azul.png"
+        "image": "images/cartas-amarela/1-azul.png",
+        "color": "amarela"
       },
       {
         "name": "2",
-        "image": "images/cartas-amarela/2-azul.png"
+        "image": "images/cartas-amarela/2-azul.png",
+        "color": "amarela"
       },
       {
         "name": "3",
-        "image": "images/cartas-amarela/3-azul.png"
+        "image": "images/cartas-amarela/3-azul.png",
+        "color": "amarela"
       },
       {
         "name": "4",
-        "image": "images/cartas-amarela/4-azul.png"
+        "image": "images/cartas-amarela/4-azul.png",
+        "color": "amarela"
       },
       {
         "name": "5",
-        "image": "images/cartas-amarela/5-azul.png"
+        "image": "images/cartas-amarela/5-azul.png",
+        "color": "amarela"
       },
       {
         "name": "6",
-        "image": "images/cartas-amarela/6-azul.png"
+        "image": "images/cartas-amarela/6-azul.png",
+        "color": "amarela"
       },
       {
         "name": "7",
-        "image": "images/cartas-amarela/7-azul.png"
+        "image": "images/cartas-amarela/7-azul.png",
+        "color": "amarela"
       },
       {
         "name": "8",
-        "image": "images/cartas-amarela/8-azul.png"
+        "image": "images/cartas-amarela/8-azul.png",
+        "color": "amarela"
       },
       {
         "name": "9",
-        "image": "images/cartas-amarela/9-azul.png"
+        "image": "images/cartas-amarela/9-azul.png",
+        "color": "amarela"
       },
       {
         "name": "Bloquear",
-        "image": "images/cartas-amarela/bloquear-azul.png"
+        "image": "images/cartas-amarela/bloquear-azul.png",
+        "color": "amarela"
       },
       {
         "name": "Inverter",
-        "image": "images/cartas-amarela/inverter-azul.png"
+        "image": "images/cartas-amarela/inverter-azul.png",
+        "color": "amarela"
       },
       {
         "name": "+2",
-        "image": "images/cartas-verdes/+2 azul.png"
+        "image": "images/cartas-verdes/+2 azul.png",
+        "color": "verdes"
       },
       {
         "name": "0",
-        "image": "images/cartas-verdes/0-azul.png"
+        "image": "images/cartas-verdes/0-azul.png",
+        "color": "verdes"
       },
       {
         "name": "1",
-        "image": "images/cartas-verdes/1-azul.png"
+        "image": "images/cartas-verdes/1-azul.png",
+        "color": "verdes"
       },
       {
         "name": "2",
-        "image": "images/cartas-verdes/2-azul.png"
+        "image": "images/cartas-verdes/2-azul.png",
+        "color": "verdes"
       },
       {
         "name": "3",
-        "image": "images/cartas-verdes/3-azul.png"
+        "image": "images/cartas-verdes/3-azul.png",
+        "color": "verdes"
       },
       {
         "name": "4",
-        "image": "images/cartas-verdes/4-azul.png"
+        "image": "images/cartas-verdes/4-azul.png",
+        "color": "verdes"
       },
       {
         "name": "5",
-        "image": "images/cartas-verdes/5-azul.png"
+        "image": "images/cartas-verdes/5-azul.png",
+        "color": "verdes"
       },
       {
         "name": "6",
-        "image": "images/cartas-verdes/6-azul.png"
+        "image": "images/cartas-verdes/6-azul.png",
+        "color": "verdes"
       },
       {
         "name": "7",
-        "image": "images/cartas-verdes/7-azul.png"
+        "image": "images/cartas-verdes/7-azul.png",
+        "color": "verdes"
       },
       {
         "name": "8",
-        "image": "images/cartas-verdes/8-azul.png"
+        "image": "images/cartas-verdes/8-azul.png",
+        "color": "verdes"
       },
       {
         "name": "9",
-        "image": "images/cartas-verdes/9-azul.png"
+        "image": "images/cartas-verdes/9-azul.png",
+        "color": "verdes"
       },
       {
         "name": "Bloquear",
-        "image": "images/cartas-verdes/bloquear-azul.png"
+        "image": "images/cartas-verdes/bloquear-azul.png",
+        "color": "verdes"
       },
       {
         "name": "Inverter",
-        "image": "images/cartas-verdes/inverter-azul.png"
+        "image": "images/cartas-verdes/inverter-azul.png",
+        "color": "verdes"
       },
       {
         "name": "+2",
-        "image": "images/cartas-vermelhas/+2 azul.png"
+        "image": "images/cartas-vermelhas/+2 azul.png",
+        "color": "vermelha"
       },
       {
         "name": "0",
-        "image": "images/cartas-vermelhas/0-azul.png"
+        "image": "images/cartas-vermelhas/0-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "1",
-        "image": "images/cartas-vermelhas/1-azul.png"
+        "image": "images/cartas-vermelhas/1-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "2",
-        "image": "images/cartas-vermelhas/2-azul.png"
+        "image": "images/cartas-vermelhas/2-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "3",
-        "image": "images/cartas-vermelhas/3-azul.png"
+        "image": "images/cartas-vermelhas/3-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "4",
-        "image": "images/cartas-vermelhas/4-azul.png"
+        "image": "images/cartas-vermelhas/4-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "5",
-        "image": "images/cartas-vermelhas/5-azul.png"
+        "image": "images/cartas-vermelhas/5-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "6",
-        "image": "images/cartas-vermelhas/6-azul.png"
+        "image": "images/cartas-vermelhas/6-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "7",
-        "image": "images/cartas-vermelhas/7-azul.png"
+        "image": "images/cartas-vermelhas/7-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "8",
-        "image": "images/cartas-vermelhas/8-azul.png"
+        "image": "images/cartas-vermelhas/8-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "9",
-        "image": "images/cartas-vermelhas/9-azul.png"
+        "image": "images/cartas-vermelhas/9-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "Bloquear",
-        "image": "images/cartas-vermelhas/bloquear-azul.png"
+        "image": "images/cartas-vermelhas/bloquear-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "Inverter",
-        "image": "images/cartas-vermelhas/inverter-azul.png"
+        "image": "images/cartas-vermelhas/inverter-azul.png",
+        "color": "vermelha"
       },
       {
         "name": "escolher-cor",
-        "image": "images/cartas-especiais/escolher-cor.png"
+        "image": "images/cartas-especiais/escolher-cor.png",
+        "color": "mult"
       }
 ]

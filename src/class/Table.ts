@@ -3,7 +3,7 @@ import CardProtocol from "./types/CardProtocol";
 import TableProtocol from "./types/TableProtocol";
 
 export default class Table implements TableProtocol {
-    private cardName: String = '';
+    public cardActive: CardProtocol;
 
     private tableContent = document.getElementById('table-content');
 
@@ -20,10 +20,10 @@ export default class Table implements TableProtocol {
         this.audioElement.play();
         
         
-        card.img.setAttribute('toAppear', 'true')
-        this.tableElement.appendChild(card.img);
+        card.img().setAttribute('toAppear', 'true')
+        this.tableElement.appendChild(card.img());
         
-        this.cardName = card.name;
+        this.cardActive = card;
 
         this.appendToTableAnimation(x, y, card, index);
     }
@@ -34,8 +34,12 @@ export default class Table implements TableProtocol {
 
 
         setTimeout(() => {
-            card.img.style.rotate = `${getRandomNumber(-10, 10)}deg`;
-            card.setPosition(this.tableContent.style.left, this.tableContent.style.top)
+            card.img().style.rotate = `${getRandomNumber(-10, 10)}deg`;
+            
+            const left = `${Number(this.tableContent.style.left.split('px')[0]) + getRandomNumber(-20, 20)}px`;  
+            const top = `${Number(this.tableContent.style.top.split('px')[0]) + getRandomNumber(-20, 20)}px`;  
+
+            card.setPosition(left, top)
         }, 1);
     }
 }

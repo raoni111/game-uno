@@ -9,14 +9,14 @@ const tableElement = document.getElementById('table-content') as HTMLDivElement;
 
 const audioElement = document.getElementById('card-sound-element') as HTMLAudioElement;
 
-const playerOne = new Player(deckElement);
-// const playerTwo = new Player(deckBotElement);
+const playerOne = new Player(deckElement, 'Player1');
+const playerTwo = new Player(deckBotElement, 'bot1');
 
 const table = new Table(tableElement, audioElement);
 
 const game = new Game(table);
 
 game.addPlayer(playerOne);
-// game.addPlayer(playerTwo);
+game.addPlayer(playerTwo);
 
 game.init();

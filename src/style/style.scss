@@ -42,11 +42,11 @@
     .bot-element {
         height: 100px;
         .img-card-element {
-            position: relative;
+            position: fixed;
             margin: 1rem 0.2rem;
             opacity: 1;
             transition: all 0.2s ease-in-out;
-            z-index: 9999;
+            z-index: 0;
             &:hover {
                 transition: top 0.1s ease-in-out;
                 top: 30px;

@@ -6,6 +6,9 @@ import CardAnimationProtocol from './types/CardAnimationProtocol';
 export default class Card {
     private _img: HTMLImageElement;
     private _name: string;
+    private _color: string;
+    
+    public href: string;
 
     public index: number;
 
@@ -13,20 +16,33 @@ export default class Card {
 
     private stack = document.getElementById('stack-cards') as HTMLDivElement;
 
-    constructor(card: CardType, index: number) {
-        this._img = createImgElement(card.image);
+    constructor(card: CardType, index: number, private defaultImg: string = '') {
+        if (!defaultImg) {
+            this._img = createImgElement(card.image);
+        } else {
+            this._img = createImgElement(defaultImg)
+        }
+
+        this.href = card.image;
         this._name = card.name;
+        this._color = card.color;
         this.index = index;
     }
 
-    get img(): HTMLImageElement {
-        this.toAppear();
+    img(skip: boolean = false): HTMLImageElement {
+        if (!skip) {
+            this.toAppear();
+        }
 
         return this._img;
     }
 
     get name(): string {
         return this._name
+    }
+
+    get color(): string {
+        return this._color;
     }
 
     private toAppear(): void {

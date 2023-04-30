@@ -1,9 +1,11 @@
 import CardAnimationProtocol from "./CardAnimationProtocol";
 
 type CardProtocol = {
-  img: HTMLImageElement;
-  name: String;
+  img(skip?: boolean): HTMLImageElement;
+  name: string;
+  color: string
   index: number;
+  href: string;
   cardAnimation: CardAnimationProtocol;
   y: string;
   x: string;
