@@ -64,8 +64,6 @@ export default class Deck implements DeckProtocol {
         this._deck.map((card) => {
             this.deckElement.appendChild(card.img());
         })
-
-        console.log(this._deck);
     }
 
     public playAudio() {

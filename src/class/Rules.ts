@@ -11,9 +11,7 @@ export default class Rules implements RulesProtocol {
     verify(card: CardProtocol, table: TableProtocol): boolean {
         this.card = card;
         this.table = table
-
-        console.log(card, table.cardActive)
-
+        
         if (!table.cardActive) {
             this.cardIsValid = true;
             return true;
