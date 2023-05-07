@@ -22,6 +22,7 @@ export default class Card {
         } else {
             this._img = createImgElement(defaultImg)
         }
+        
 
         this.href = card.image;
         this._name = card.name;
